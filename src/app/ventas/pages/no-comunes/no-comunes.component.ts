@@ -10,7 +10,7 @@ import { interval } from 'rxjs';
 export class NoComunesComponent {
 
   // i18nSelect
-  nombre: string = 'Susana';
+  nombre: string = 'Paola';
   genero: string = 'femenino';
 
   invitationMap = {
@@ -27,11 +27,11 @@ export class NoComunesComponent {
   }
 
   cambiarCliente() {
-    if (this.nombre === 'Susana') {
-      this.nombre = 'Fernando';
+    if (this.nombre === 'Paola') {
+      this.nombre = 'Miguel';
       this.genero = 'masculino'
     } else {
-      this.nombre = 'Susana';
+      this.nombre = 'Paola';
       this.genero = 'femenino';
     }
   }
